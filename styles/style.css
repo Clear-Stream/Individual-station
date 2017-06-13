@@ -1,0 +1,169 @@
+
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: "Myfont";
+	src:url(../fonts/Munro.eot), url(../fonts/Munro.otf), url(../fonts/Munro.svg), url(../fonts/Munro.ttf), url(../fonts/Munro.woff);
+}
+a{
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+input {
+	border: none;
+}
+header, footer, article, section, nav, menu, hgroup {
+	display: block; 
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+body {
+  font-size: 14px;
+  font-family: "微软雅黑" ;
+  background-color: #f6f6f6;
+  overflow-x: hidden;
+}
+/*header {
+  width: 100%;
+  min-height: 400px;
+  padding: 90px 0;
+  background: url(../images/bg.jpg) no-repeat left top;
+  background-size: cover;
+}*/
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+}
+.head_inner, .banner_inner{
+  width: 90%;
+  margin: 0 auto;
+}
+.head_inner {
+  height: 75px;
+}
+.logo {
+  float: left;
+  padding-top: 10px;
+}
+.logo a {
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+  padding: 10px 0 0 12px;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  float: left;
+  padding: 15px 15px;
+}
+nav ul li a {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: #eb5424;
+}
+#banner {
+  width: 100%;
+  /*padding: 90px 0;*/
+  min-height: 350px;
+  background: url(../images/banner6.jpg) no-repeat left top;
+  background-size: cover;
+}
+#banner .mes {
+  width: 25%;
+  text-align: center;
+  float: left;
+  padding: 90px 0;
+}
+.mes img {
+  width: 100px;
+}
+.mes h1 {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.mes h2 {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.mes h3 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom:25px; 
+}
+.mes h4.phone {
+  margin: 30px 0;  
+}
+.mes h4 {
+  color: #fff;
+  font-size: 14px;
+}
+.mes h4 a {
+  color: #fff;
+}
+.part3 a i {
+  color: #fff;
+  font-size: 20px;
+  padding: 8px 10px;
+  width: 18%;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.5s;;
+  -moz-transition: all 0.5s;;
+  -ms-transition: all 0.5s;;
+  -o-transition: all 0.5s;;
+  transition: all 0.5s;;
+} 
+.part3 a i:hover {
+  color: red;
+  border-color: red;
+}
+.part4 i {
+  color: #000;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 4px;
+  background: #fff;
+  margin-bottom: 25px;
+  position: relative;
+}
+.part4 i:after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 19px;
+  bottom: -14px;
+  border-top: 14px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+}
+.form-input {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
